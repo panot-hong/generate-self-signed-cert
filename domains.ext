@@ -1,0 +1,10 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+#DNS.2 = my-domain.com
+#DNS.3 = my-docker-container-name
+#IP.1 = 45.79.23.120
+#IP.2 = 192.168.123.184
